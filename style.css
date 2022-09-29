@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Menú principal*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 56, 56);
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 24px;
+    align-items: center;
+    }
+    
+header>div>span {
+    color: white;
+    float: right;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav ul li a.link {
+    color: green;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 15px;  
+}
+
+header nav ul li a {
+    color: grey;
+    text-decoration: none;
+    
+}
+
+header>nav>ul>li>a:hover {
+    color: white;
+
+}
+
+
+
+
+/*Imagen principal*/
+
+.imagen1 {
+    background: url("img/hawaii.jpg"), #0000009c;
+    background-blend-mode: color;
+    height: 78vh;
+}
+
+.imagen1 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: white;
+    padding: 5%;
+    justify-content: end;
+    align-items: end;
+}
+.texto {
+    text-align:end;
+    width: 50%;
+
+}
+
+/*Botones*/
+
+.imagen1 button {
+    width: fit-content;
+    color: white;
+padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: .8em;
+}
+
+.btn1 {
+    color: white;
+    border: solid 1px white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.btn2 {
+    background-color: rgb(44, 196, 44);
+    border: none;
+}
+
+div>button:hover {
+    color: rgb(153, 146, 146);
+}
+
+/*Texto y Cards*/
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.texto2 div:last-child {
+    font-size: 2em;
+}
+
+.cuadro {
+    display: flex ;
+
+}
+
+
